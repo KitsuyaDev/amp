@@ -1,0 +1,34 @@
+Meta.DisplayName=Tuna Minecraft
+Meta.Description=Minecraft server launched through tuna CPU pinning
+Meta.OS=Linux
+Meta.Author=Kit
+Meta.URL=
+Meta.DisplayImageSource=none:
+Meta.ConfigManifest=tuna-minecraftconfig.json
+Meta.ConfigRoot=tuna-minecraft.kvp
+Meta.ContainerPolicy=Supported
+
+App.DisplayName=Tuna Minecraft
+App.RootDir=./tuna-minecraft/
+App.BaseDirectory=./tuna-minecraft/
+App.WorkingDir=.
+App.ExecutableLinux=tuna
+App.CommandLineArgs=run --cpus=8,9,10,11,24,25,26,27 ./run_server.sh
+App.CommandLineParameterFormat=-{0} "{1}"
+App.CommandLineParameterDelimiter= 
+App.AppSettings={}
+App.EnvironmentVariables={}
+App.ExitMethod=String
+App.ExitString=stop
+App.HasWriteableConsole=True
+App.HasReadableConsole=True
+App.AdminMethod=STDIO
+App.IgnoreSTDOUTAfterRCON=False
+App.RapidStartup=False
+App.Compatibility=None
+App.ApplicationReadyMode=RegexMatch
+App.TemplateMatchRegex=
+App.MonitorChildProcessName=^(java|java.bin)$
+App.Ports=[]
+App.UpdateSources=[]
+Console.AppReadyRegex=^Done \([0-9.]+s\)! For help, type "help"$
