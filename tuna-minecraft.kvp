@@ -6,6 +6,7 @@ Meta.URL=
 Meta.DisplayImageSource=none:
 Meta.ConfigManifest=tuna-minecraftconfig.json
 Meta.ConfigRoot=tuna-minecraft.kvp
+Meta.AppConfigId=7f0f6d8c-3b4e-4d8f-a5e5-3b89f1d2c001
 
 App.DisplayName=Tuna Minecraft
 App.RootDir=./tuna-minecraft/
