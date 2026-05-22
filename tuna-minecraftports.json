@@ -1,0 +1,7 @@
+[
+  {
+    "Port": 25584,
+    "Protocol": "TCP",
+    "Name": "Game Port"
+  }
+]
